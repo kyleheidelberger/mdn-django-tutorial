@@ -16,4 +16,6 @@
         <!-- <li><strong>Science Fiction Books:</strong> {{ num_scifi }}</li> -->
         <li><strong>Books in "A Song of Ice and Fire" Series:</strong> {{ num_books_ice }}</li>
     </ul>
+
+    <p>You have visited this page {{ num_visits}}{% if num_visits == 1 %} time{% else %} times{% endif %}.</p>
 {% endblock %}
